@@ -6,13 +6,13 @@
 Algoritmo Diagrama2
 	Definir costo, valorR, valorA, depreciacion, acum Como Real
 	Definir vidaUtil, years Como Entero
-	Escribir 'Ingrese el coste del automóvil: '
+	Escribir "Ingrese el coste del automóvil: "
 	Leer costo
-	Escribir 'Ingrese tiempo de vida util del automóvil: '
+	Escribir "Ingrese tiempo de vida util del automóvil: "
 	Leer vidaUtil
-	Escribir 'Ingrese el valor del Rescate: '
+	Escribir "Ingrese el valor del Rescate: "
 	Leer valorR
-	Escribir 'Ingrese el año'
+	Escribir "Ingrese el año"
 	Leer anio
 	valorA <- costo
 	depreciacion <- (costo-valorR)/vidaUtil
@@ -20,9 +20,9 @@ Algoritmo Diagrama2
 	Mientras years<vidaUtil Hacer
 		acum <- acum+depreciacion
 		valorA <- valorA+depreciacion
-		Escribir 'Año : ', years
-		Escribir 'Depreciación Acumulada: ', acum
-		Escribir ' Valor Actual: ', valorA
+		Escribir "Año : ", years
+		Escribir "Depreciación Acumulada: ", acum
+		Escribir " Valor Actual: ", valorA
 		years <- years+1
 	FinMientras
 FinAlgoritmo
