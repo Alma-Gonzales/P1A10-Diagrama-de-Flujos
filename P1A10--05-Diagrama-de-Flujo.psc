@@ -6,22 +6,22 @@
 Algoritmo Diagrama5
 	Definir nom, datos Como Cadena
 	Definir hrs, preciohrs, salario Como Real
-	datos <- 'S'
-	Mientras datos='S' O datos='s' Hacer
-		Escribir 'Ingrese el nombre del trabajador: '
+	datos <- "S"
+	Mientras datos="S" O datos="s" Hacer
+		Escribir "Ingrese el nombre del trabajador: "
 		Leer nom
-		Escribir 'Ingrese las horas trabajadas: '
+		Escribir "Ingrese las horas trabajadas: "
 		Leer hrs
-		Escribir 'Ingrese el precio por Hora: '
+		Escribir "Ingrese el precio por Hora: "
 		Leer preciohrs
 		Si hrs<=40 Entonces
 			salario <- hrs*preciohrs
 		SiNo
 			salario <- 40*preciohrs+1.5*preciohrs*(hrs-40)
 		FinSi
-		Escribir 'Empleado: ', nom
-		Escribir ' Salario: ', salario
-		Escribir ' Desea ingresar más datos ? S/N :'
+		Escribir "Empleado: ", nom
+		Escribir " Salario: ", salario
+		Escribir " Desea ingresar más datos ? S/N :"
 		Leer datos
 	FinMientras
 FinAlgoritmo
