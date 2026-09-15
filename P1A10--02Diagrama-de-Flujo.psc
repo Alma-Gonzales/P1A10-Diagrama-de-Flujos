@@ -5,24 +5,32 @@
 // depreciación anual constante D para cada año de vida útil.
 Algoritmo Diagrama2
 	Definir costo, valorR, valorA, depreciacion, acum Como Real
-	Definir vidaUtil, years Como Entero
-	Escribir "Ingrese el coste del automóvil: "
+	Definir vidaUtil, compra, years Como Entero
+	
+	Escribir "Ingrese el costo del automóvil: "
 	Leer costo
-	Escribir "Ingrese tiempo de vida util del automóvil: "
+	
+	Escribir "Ingrese el año de compra: "
+	Leer compra
+	
+	Escribir "Ingrese el tiempo de vida útil del automóvil: "
 	Leer vidaUtil
-	Escribir "Ingrese el valor del Rescate: "
+	
+	Escribir "Ingrese el valor de rescate: "
 	Leer valorR
-	Escribir "Ingrese el año"
-	Leer years
+	
 	valorA <- costo
-	depreciacion <- (costo-valorR)/vidaUtil
+	depreciacion <- (costo - valorR) / vidaUtil
 	acum <- 0
-	Mientras years<vidaUtil Hacer
-		acum <- acum+depreciacion
-		valorA <- valorA+depreciacion
-		Escribir "Año : ", years
-		Escribir "Depreciación Acumulada: ", acum
-		Escribir " Valor Actual: ", valorA
-		years <- years+1
-	FinMientras
+	
+	Escribir "Año       Depreciación Acumulada         Valor Actual"
+	
+	Para years <- compra Hasta compra + vidaUtil - 1 Hacer
+		
+		acum <- acum + depreciacion
+		valorA <- valorA - depreciacion
+		
+		Escribir years, "             ", acum, "                      ", valorA
+		
+	FinPara
 FinAlgoritmo
