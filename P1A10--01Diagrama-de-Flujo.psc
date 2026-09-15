@@ -4,17 +4,17 @@
 Algoritmo Diagrama1
 	Definir nom Como Cadena
 	Definir hrs, precio, salarioB, impuesto, total Como Real
-	Escribir 'Ingres el nombre del trabajador'
+	Escribir "Ingres el nombre del trabajador"
 	Leer nom
-	Escribir 'Ingrese las horas trabajadas'
+	Escribir "Ingrese las horas trabajadas"
 	Leer hrs
-	Escribir 'Ingrese precio por hora'
+	Escribir "Ingrese precio por hora"
 	Leer precio
 	salarioB <- hrs*precio
 	impuesto <- 0.25*salarioB
 	total <- salarioB-impuesto
-	Escribir 'Nombre del trabajador: ', nom
-	Escribir ' Salario bruto: ', salarioB
-	Escribir ' El impuesto es: ', impuesto
-	Escribir ' Pago total es: ', total
+	Escribir "Nombre del trabajador: ", nom
+	Escribir " Salario bruto: ", salarioB
+	Escribir " El impuesto es: ", impuesto
+	Escribir " Pago total es: ", total
 FinAlgoritmo
