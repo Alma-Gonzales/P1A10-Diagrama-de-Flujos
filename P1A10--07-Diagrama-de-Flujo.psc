@@ -3,22 +3,22 @@
 // cumple esta condición, escribir "Iguales" y, en caso contrario, escribir "Distintas".
 Algoritmo Diagrama7
 	Definir A, B, C Como Real
-	Escribir 'Ingrese el valor de A:'
+	Escribir "Ingrese el valor de A:"
 	Leer A
-	Escribir 'Ingrese el valor de B:'
+	Escribir "Ingrese el valor de B:"
 	Leer B
-	Escribir 'Ingrese el valor de C:'
+	Escribir "Ingrese el valor de C:"
 	Leer C
 	Si A+B=C Entonces
-		Escribir 'Iguales'
+		Escribir "Iguales"
 	SiNo
 		Si A+C=B Entonces
-			Escribir 'Iguales'
+			Escribir "Iguales"
 		SiNo
 			Si B+C=A Entonces
-				Escribir 'Iguales'
+				Escribir "Iguales"
 			SiNo
-				Escribir 'Distintas'
+				Escribir "Distintas"
 			FinSi
 		FinSi
 	FinSi
