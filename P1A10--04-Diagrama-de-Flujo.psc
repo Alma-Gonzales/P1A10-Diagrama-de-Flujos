@@ -8,5 +8,5 @@ Algoritmo Diagrama4
 		suma <- suma+num
 		num <- num+2
 	FinMientras
-	Escribir ' La suma de los número pares entre 2 y 100 es: ', suma
+	Escribir " La suma de los número pares entre 2 y 100 es: ", suma
 FinAlgoritmo
