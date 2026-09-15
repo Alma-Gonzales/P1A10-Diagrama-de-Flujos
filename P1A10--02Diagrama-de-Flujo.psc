@@ -13,7 +13,7 @@ Algoritmo Diagrama2
 	Escribir "Ingrese el valor del Rescate: "
 	Leer valorR
 	Escribir "Ingrese el año"
-	Leer anio
+	Leer years
 	valorA <- costo
 	depreciacion <- (costo-valorR)/vidaUtil
 	acum <- 0
