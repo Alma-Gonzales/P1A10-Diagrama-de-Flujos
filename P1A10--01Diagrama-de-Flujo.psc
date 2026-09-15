@@ -1,4 +1,4 @@
-// Alma Leticia Douglas Gonzales Guilber 636394
+// Alma Leticia Douglas Gonzales Guilbert 636394
 // Calcular la paga neta de un trabajador conociendo el número de horas trabajadas, la tarifa horaria y la
 // tasa de impuestos.
 Algoritmo Diagrama1

@@ -1,4 +1,4 @@
-// Alma Leticia Douglas Gonzales Guilber 636394
+// Alma Leticia Douglas Gonzales Guilbert 636394
 // Se desea realizar el algoritmo que resuelva el siguiente problema: Cálculo de los salarios mensuales de
 // los empleados de una empresa, sabiendo que éstos se calculan en base a las horas semanales trabajadas
 // y de acuerdo a un precio especificado por horas. Si se pasan de cuarenta horas semanales, las horas

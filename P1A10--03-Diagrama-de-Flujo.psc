@@ -1,4 +1,4 @@
-// Alma Leticia Douglas Gonzales Guilber 636394
+// Alma Leticia Douglas Gonzales Guilbert 636394
 // Calcular la media de una serie de números positivos, suponiendo que los datos se leen desde un
 // terminal. Un valor de cero ?como entrada? indicará que se ha alcanzado el final de la serie de números
 // positivos

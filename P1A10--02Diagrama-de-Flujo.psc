@@ -1,4 +1,4 @@
-// Alma Leticia Douglas Gonzales Guilber 636394
+// Alma Leticia Douglas Gonzales Guilbert 636394
 // Se desea obtener una tabla con las depreciaciones acumuladas y los valores reales de cada año, de un
 // automóvil comprado por 20.000 euros en el año 2005, durante los seis años siguientes suponiendo un
 // valor de recuperación o rescate de 2.000. Realizar el análisis del problema, conociendo la fórmula de la
