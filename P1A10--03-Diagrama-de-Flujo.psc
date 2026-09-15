@@ -7,18 +7,18 @@ Algoritmo Diagrama3
 	Definir conta Como Entero
 	conta <- 0
 	suma <- 0
-	Escribir 'Ingrese un número positivo (0 para terminar): '
+	Escribir "Ingrese un número positivo (0 para terminar): "
 	Leer valorn
 	Mientras valorn<>0 Hacer
 		conta <- conta+1
 		suma <- suma+valorn
-		Escribir 'Ingrese otro número positivo (0 para terminar): '
+		Escribir "Ingrese otro número positivo (0 para terminar): "
 		Leer valorn
 	FinMientras
 	Si conta>0 Entonces
 		media <- suma/conta
-		Escribir ' La media es : ', media
+		Escribir " La media es : ", media
 	SiNo
-		Escribir 'No se ingresaron números.'
+		Escribir " No se ingresaron números."
 	FinSi
 FinAlgoritmo
