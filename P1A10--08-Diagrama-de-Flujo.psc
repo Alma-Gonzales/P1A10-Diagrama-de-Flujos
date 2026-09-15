@@ -8,5 +8,5 @@ Algoritmo Diagrama8
 		S <- S+X
 		X <- X+1
 	FinMientras
-	Escribir 'La suma de los primeros 50 números es: ', S
+	Escribir "La suma de los primeros 50 números es: ", S
 FinAlgoritmo
